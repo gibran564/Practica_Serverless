@@ -9,18 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tiptap/extension-underline": "^2.3.0",
+    "@tiptap/pm": "^2.3.0",
+    "@tiptap/react": "^2.3.0",
+    "@tiptap/starter-kit": "^2.3.0",
+    "dotenv": "^16.4.5",
+    "firebase": "^10.11.1",
+    "lucide-react": "^0.372.0",
+    "masonry-layout": "^4.2.2",
+    "next": "14.2.2",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.2"
+    "react-responsive-masonry": "^2.2.0",
+    "tiptap": "^1.32.2",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-responsive-masonry": "^2.1.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.2",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.2"
+    "typescript": "^5"
   }
 }
